@@ -399,7 +399,7 @@
 
 	<section class="feedback-form">
 
-    <h3 class="h3 form-title">Feedback Form</h3>
+    <h3 class="h3 form-title">Review </h3>
 
     <form action="https://api.web3forms.com/submit" method="POST" class="form" data-form>
 
@@ -410,11 +410,11 @@
             <input type="email" name="email" class="form-input" placeholder="Your Email" required data-form-input>
         </div>
 
-        <textarea name="message" class="form-input" placeholder="Your Feedback" required data-form-input></textarea>
+        <textarea name="message" class="form-input" placeholder="Thanks for making this easy!" required data-form-input></textarea>
 
         <button class="form-btn" type="submit" disabled data-form-btn>
             <ion-icon name="paper-plane"></ion-icon>
-            <span>Submit Feedback</span>
+            <span>Submit Your Review</span>
         </button>
 
     </form>
@@ -895,7 +895,7 @@
 
         <section class="contact-form">
 
-    <h3 class="h3 form-title">Contact Form</h3>
+    <h3 class="h3 form-title">Reach Me !</h3>
 
     <form action="https://api.web3forms.com/submit" method="POST" class="form" data-form>
 
@@ -906,7 +906,7 @@
             <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
         </div>
 
-        <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+        <textarea name="message" class="form-input" placeholder="Got a question? Ask away! " required data-form-input></textarea>
 
         <button class="form-btn" type="submit" disabled data-form-btn>
             <ion-icon name="paper-plane"></ion-icon>
@@ -926,10 +926,46 @@
 
 
 
+<script>
+document.addEventListener('contextmenu', function(event) {
+  event.preventDefault();
+});
+</script>
 
 
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.11.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.11.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
 
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyB2YOB8y2bH6NX9uMAxY4VzZgA31sLMsCQ",
+    authDomain: "tino-portfolio.firebaseapp.com",
+    projectId: "tino-portfolio",
+    storageBucket: "tino-portfolio.appspot.com",
+    messagingSenderId: "825028492555",
+    appId: "1:825028492555:web:417eeaba0254b368ba760e",
+    measurementId: "G-W7M2CED6E5"
+  };
 
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W7M2CED6E5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W7M2CED6E5');
+</script>
   <script src="./assets/js/script.js"></script>
 
   <!--
