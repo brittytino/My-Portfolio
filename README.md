@@ -2,7 +2,7 @@
 
 Welcome to **My-First-Cloned-Portfolio**, a sleek and modern personal portfolio website showcasing my expertise as a web designer and front-end developer. This portfolio reflects my passion for creating seamless digital experiences and is built using **HTML**, **CSS**, and **JavaScript**.
 
-![Portfolio Demo](https://tinobritty-portfolio.vercel.app/)  
+[Live Site ](https://tinobritty-portfolio.vercel.app/)  
 
 ## 🌟 About Me
 
